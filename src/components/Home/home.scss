@@ -1,0 +1,10 @@
+.home-container {
+  padding: 15% 25%;
+  font-weight: bold;
+}
+
+@media all and (max-width: 800px) {
+  .home-container {
+    padding: 20% 20px;
+  }
+}

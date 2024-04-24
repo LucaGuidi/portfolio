@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kode Mono", "Courier New", Courier, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(#0F172A, #111F44);
+  color: #ffffff;
+}
+
+section {
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
