@@ -34,8 +34,8 @@ function StarBackground(props: any) {
 
 export function StarsCanvas() {
   return (
-    <div className="w-100 h-100 position-fixed">
-      <Canvas camera={{ position: [0, 0, 1] }}>
+    <div className="w-100 h-100 position-fixed z-20 go-through">
+      <Canvas className="go-through" camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>
           <StarBackground />
         </Suspense>

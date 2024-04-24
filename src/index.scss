@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: linear-gradient(#0F172A, #111F44);
+  background: linear-gradient(#0f172a, #111f44);
   color: #ffffff;
 }
 
@@ -23,4 +23,8 @@ section {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.go-through {
+  pointer-events: none !important;
 }

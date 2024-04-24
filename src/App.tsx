@@ -2,7 +2,7 @@ import { Contact, Experience, Home, NavBar, Skills } from "./components";
 
 export function App() {
   return (
-    <div>
+    <div className="test">
       <NavBar />
 
       <section id="home">
