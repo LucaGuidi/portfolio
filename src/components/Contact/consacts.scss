@@ -44,6 +44,11 @@
         background: linear-gradient(#befff7, #a6f6ff, #9eddff);
         font-size: 1.5rem;
       }
+
+      .disabled {
+        filter: brightness(50%);
+        cursor: progress;
+      }
     }
   }
 }

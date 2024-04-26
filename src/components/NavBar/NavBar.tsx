@@ -22,7 +22,7 @@ export function NavBar() {
               <a href="#skills">Skills</a>
             </h4>
             <h4>
-              <a href="#contacts">Contacts</a>
+              <a href="#contact">Contact</a>
             </h4>
           </div>
 
